@@ -109,7 +109,7 @@ I changed source of video from my webcam to my phone and draw not only bounding 
 
 As I step back and turn my head in different directions the model recognizes me and drawing correct bounding boxes and landmarks.
 
-![different poses](gifs/different poses.gif)
+![different poses](gifs/different_poses.gif)
 
 But the model isn't perfect. It recognizes people badly when there are no source of light.
 
