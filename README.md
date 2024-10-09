@@ -97,7 +97,7 @@ But firstly let's see how the model only myself.
 How we can see the model is recognizing me correctly with glaces and hood on. But as I cover my face with hand the mode no longer recognizes me
 
 Now let's try to show on my phone picture of me and my frient Svyatoslav. The model recognize me on the picture and on background and gave the friend text "Undetected" (it's because his photo is not present in people faces directory).
-![gif2](gifs/me n svyatyk.gif)
+![gif2](gifs/me_and_svyatyk.gif)
 
 Now let's try how the model behaves when there is two known people (myself and my friend Yurii). Both of us are recognized correctly.
 
