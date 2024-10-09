@@ -1,0 +1,8 @@
+/__pycache__
+/.idea
+/.ipynb_checkpoints
+/notebooks/arcface-loss/arcface-efficientnet.pt
+/notebooks/ce-loss/ce-efficientnet.pt
+/notebooks/ce-loss/ce-inceptionresnetv1-1292.pt
+/notebooks/triplet-loss/triplet-efficientnet-last-epoch.pt
+/notebooks/triplet-loss/triplet-efficientnet-min-val-loss.pt
