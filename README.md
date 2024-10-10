@@ -8,7 +8,6 @@
 ## Structure of the project:
 - **gifs/**: Contains produces gifs
 - **people_faces/**: Contains 2 images (Borys and Yurii)
-- **id_rate/**: Contains notebook with calculation of ID rate and media files
 - **my_face_alignment/**: Contains notebook with my own face alignment model
 - **models_definition/**: Contains definition of models
 - **notebooks/**: Contains .ipynb with models that I trained
@@ -17,6 +16,7 @@
   - **triplet-loss/**: Contains notebook with training of Triplet model and produced model as file .pt
 - **config.py**: config file contains params dict with path of each model
 - **face-detection-and-alignment.ipynb**: first and second stages of the pipeline. Contains notebook in which I used MTCNN for face detection and alignment
+- **id-rate-and-pipeline.ipynb**: this notebook contains calculation of ID rate and combining of pipeline
 - **README.md**: Project documentation (this file)
 - **utils.py**: Python file contaning helper functions
 
@@ -80,7 +80,7 @@ I chose FPR in range from [0, 1] with step of of 0.04 and draw ROC-AUC curves fo
 
 Model with the highest AUC turned out to be Triplet / EfficientNet (min. val loss) of 0.9202. It's very good results
 
-![roc-curves](id_rate/roc_curves.png)
+![roc-curves](gifs/roc_curves.png)
 
 ## Combining of pipeline / Real-time face recognition
 
@@ -158,8 +158,8 @@ How we can see the model should produce 2 points of left and right center of the
 ## Additional:
 
 Comparison of distributions of cosine similarities between positive/negative pairs in query set for different models
-![comparison1](id_rate/comparison1.png)
+![comparison1](gifs/comparison1.png)
 
 Comparison of distributions of cosine similarities between all pairs in query/distractor sets for different models
 
-![comparison2](id_rate/comparison2.png)
+![comparison2](gifs/comparison2.png)
